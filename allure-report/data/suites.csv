@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 19 18:23:14 IST 2020","Mon Oct 19 18:23:28 IST 2020","13594","Test","Test_Vopay","","","","User is able to search and select bank",""
+"passed","Mon Oct 19 18:23:02 IST 2020","Mon Oct 19 18:23:14 IST 2020","11338","Test","Test_Vopay","","","","Launch vopay iframe outer page",""

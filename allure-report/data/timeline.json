@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5B2R9UF",
+    "children" : [ {
+      "name" : "15280-MainThread",
+      "children" : [ {
+        "name" : "User is able to search and select bank",
+        "uid" : "4c203a42959e9090",
+        "parentUid" : "847bcbe73b316086dbdb6e4766c1466f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603111994778,
+          "stop" : 1603112008372,
+          "duration" : 13594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Launch vopay iframe outer page",
+        "uid" : "3a62165b964de58f",
+        "parentUid" : "847bcbe73b316086dbdb6e4766c1466f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603111982927,
+          "stop" : 1603111994265,
+          "duration" : 11338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "847bcbe73b316086dbdb6e4766c1466f"
+    } ],
+    "uid" : "f78ab90fd262336d1a89d8d3024393a9"
+  } ]
+}

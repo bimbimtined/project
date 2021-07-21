@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test",
+    "children" : [ {
+      "name" : "Test_Vopay",
+      "children" : [ {
+        "name" : "Launch vopay iframe outer page",
+        "uid" : "3a62165b964de58f",
+        "parentUid" : "5d1d2733ce3e5ccf72f512e90d705d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603111982927,
+          "stop" : 1603111994265,
+          "duration" : 11338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User is able to search and select bank",
+        "uid" : "4c203a42959e9090",
+        "parentUid" : "5d1d2733ce3e5ccf72f512e90d705d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603111994778,
+          "stop" : 1603112008372,
+          "duration" : 13594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d1d2733ce3e5ccf72f512e90d705d49"
+    } ],
+    "uid" : "0b78c9c59ea4f706402d505dad753d3e"
+  } ]
+}

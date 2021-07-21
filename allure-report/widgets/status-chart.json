@@ -1,0 +1,21 @@
+[ {
+  "uid" : "4c203a42959e9090",
+  "name" : "User is able to search and select bank",
+  "time" : {
+    "start" : 1603111994778,
+    "stop" : 1603112008372,
+    "duration" : 13594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a62165b964de58f",
+  "name" : "Launch vopay iframe outer page",
+  "time" : {
+    "start" : 1603111982927,
+    "stop" : 1603111994265,
+    "duration" : 11338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
