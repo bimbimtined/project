@@ -26,9 +26,7 @@ class Translink:
     addtofavoritesbtn = (By.XPATH, "//button[contains(text(),'Add to Favourites')]")
     myfavsicon = (By.XPATH, "//a[contains(.,'My Favs')]")
     translinkautohomeworklink = (By.XPATH, "//a[contains(text(),'Translink Auto Homework')]")
-    iframemain = (By.XPATH, "/html[1]/body[1]/main[1]/div[3]/section[3]/iframe[1]")
-    iframechild = (By.XPATH, "//iframe[contains(@title,'Next Bus')]")
-    commercialbroadwaytxt = (By.XPATH, "//main[@id='content']/div[4]/section[3]/iframe")
+    iframemain = (By.XPATH, "/html[1]/body[1]/main[1]/div[4]/section[3]/iframe[1]")
 
     def __init__(self, driver):
         # to initialize a variable to hold reference of webdriver instance being passed to the function as a reference.
@@ -108,25 +106,6 @@ class Translink:
         time.sleep(5)
 
     def test_switchttoiframe(self):
-        link = 'https://www.translink.ca/next-bus/results/#/text/route/99/'
-        # frame1 = self.driver.find_element(*self.iframemain)
-        # self.driver.switch_to.frame(frame1)
-        # time.sleep(5)
-        # self.driver.refresh()
-
-        self.driver.switch_to.frame(self.driver.find_element(By.XPATH, "iframe[title='Next Bus']py"))
-
-    def test_check_commercialbroadway(self, CommercialBroadway):
-        # validate “99 Commercial-Broadway / UBC (B-Line)” text
-        global ubc
-        if CommercialBroadway == '99 Commercial-Broadway / UBC (B-Line)':
-            try:
-                ubc = self.driver.find_element(*self.commercialbroadwaytxt)
-            except:
-                return False
-
-        if CommercialBroadway == ubc.text:
-            return True
-        else:
-            return False
-
+        frame1 = self.driver.find_element(*self.iframemain)
+        self.driver.switch_to.frame(frame1)
+        time.sleep(5)
