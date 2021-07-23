@@ -1,0 +1,48 @@
+Steps to setup automation project
+
+1. Open your web browser and navigate to the Downloads for Windows section of the official Python website. Search for your desired version of Python.
+In this project, just download the python version 3.7.
+
+1.1 While installing, Make sure you select the Install launcher for all users and Add Python 3.7 to PATH checkboxes.
+
+1.2 Verify Python Was Installed On Windows:
+Navigate to the directory in which Python was installed on the system. In our  case, it is C:\Users\Kriselle Tined\AppData\Local\Programs\Python\Python37, Double-click python.exe.
+The output should display your installed version of Python.
+
+2. To install pycharm on windows:
+1.1) Download the required package or executable from the official website of PyCharm https://www.jetbrains.com/pycharm/download/#section=windows
+
+2.2) Download the community package (executable file) onto your system.
+
+2.3) Now, begin the installation procedure similar to any other software package and Make sure you select Add to PATH checkbox while installing.
+
+After installation is complete, launch the application.
+
+2.4 Now open command prompt, navigate to the pycharm projects folder:
+→ cd C:\Users\username\PycharmProjects
+
+2.5 Now execute below command to pull the project from repository:
+git clone https://github.com/bimbimtined/project.git
+
+3. Now open launched pycharm application and open the project in pycharm:
+
+3.1 Browse to the location, where the project is downloaded, then select the project and click ok. After opening the project,
+go to File-->Settings-->click on Project:project name option. In that option, Double click the Project Interpreter and
+make sure that python interpreter is selected with python version shown on that having the path to python.exe
+
+3.2 After this, open the terminal window and install the required packages in the project:
+When terminal window gets opened, write the below command and press enter to install the packages:
+
+=>pip install -r requirements.txt
+
+3.3 After successfully installing the packages, run the project from terminal using the below command having correct path for each project folder:
+In this case, just go to the directory cd C:\Users\Kriselle Tined\Documents\project\homework>
+
+on the terminal --> type in pytest -v -s TranslinkInit.py
+
+
+
+
+
+
+
