@@ -114,7 +114,7 @@ class Translink:
         # time.sleep(5)
         # self.driver.refresh()
 
-        self.driver.switch_to.frame(self.driver.find_element(By.NAME, "IFRAME"))
+        self.driver.switch_to.frame(self.driver.find_element(By.XPATH, "iframe[title='Next Bus']py"))
 
     def test_check_commercialbroadway(self, CommercialBroadway):
         # validate “99 Commercial-Broadway / UBC (B-Line)” text
