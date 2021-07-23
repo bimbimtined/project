@@ -1,16 +1,7 @@
-import random
+
 import time
-import keyboard
-from selenium import webdriver
-import pytest
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver import ActionChains, DesiredCapabilities
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.support.wait import WebDriverWait
-import warnings
 
 #   This class will contain all the methods to execute the homework
 
