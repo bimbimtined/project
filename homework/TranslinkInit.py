@@ -18,3 +18,4 @@ def test_translinkAutoHomework(browser):
     assert translink.test_check_translink_homework_link('Translink Auto Homework') == True, "Translink Auto Homework - link not found"
     translink.test_click_translink_homework_link()
     translink.test_switchttoiframe()
+    # assert translink.test_check_99_commercial_broadway('99 to Comm’l-Bdway Stn/ Boundary (B-Line)') == True, "99 to Comm’l-Bdway Stn/ Boundary (B-Line) - txt not found"

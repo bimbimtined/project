@@ -17,7 +17,9 @@ class Translink:
     addtofavoritesbtn = (By.XPATH, "//button[normalize-space()='Add to favourites']")
     myfavsicon = (By.XPATH, "//a[contains(.,'My Favs')]")
     translinkautohomeworklink = (By.XPATH, "//a[contains(text(),'Translink Auto Homework')]")
+    # iframemain = (By.XPATH, "/html[1]/body[1]/main[1]/div[4]/div[1]")
     iframemain = (By.XPATH, "/html[1]/body[1]/main[1]/div[4]/section[3]/iframe[1]")
+    commercialbrodwaytxt = (By.XPATH, "//div[@id='MainContent_PanelStops']/div[@class='txtRouteTitle'")
 
     def __init__(self, driver):
         # to initialize a variable to hold reference of webdriver instance being passed to the function as a reference.
@@ -77,16 +79,15 @@ class Translink:
         self.driver.find_element(*self.myfavsicon).click()
         time.sleep(5)
 
-    def test_check_translink_homework_link(self, Link):
+    def test_check_translink_homework_link(self, Text1):
         # validate “Translink Auto Homework” link
-        global link
-        if Link == 'Translink Auto Homework':
+        if Text1 == 'Translink Auto Homework':
             try:
-                link = self.driver.find_element(*self.translinkautohomeworklink)
+                txt1 = self.driver.find_element(*self.translinkautohomeworklink)
             except:
                 return False
 
-        if Link == link.text:
+        if Text1 == txt1.text:
             return True
         else:
             return False
@@ -100,3 +101,16 @@ class Translink:
         frame1 = self.driver.find_element(*self.iframemain)
         self.driver.switch_to.frame(frame1)
         time.sleep(5)
+
+    def test_check_99_commercial_broadway(self, Text2):
+        # validate “99 to Comm’l-Bdway Stn/ Boundary (B-Line)” is displayed on page
+        if Text2 == '99 to Comm’l-Bdway Stn/ Boundary (B-Line)':
+            try:
+                txt2 = self.driver.find_element(*self.commercialbrodwaytxt)
+            except:
+                return False
+
+        if Text2 == txt2.text:
+            return True
+        else:
+            return False
