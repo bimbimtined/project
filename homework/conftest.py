@@ -20,7 +20,7 @@ def browser(request):
         options.add_argument("--proxy-bypass-list=*")
         options.add_argument("--start-maximized")
         # options.add_argument("--headless")
-        driver = BROWSERS[request.param](executable_path="C:/Drivers/Firefox/geckodriver", options=options)
+        driver = BROWSERS[request.param](executable_path="C:/Users/VoPay QA/Documents/Webdriver/firefox/v30/geckodriver", options=options)
         request.addfinalizer(lambda *args: driver.quit())
         return driver
 

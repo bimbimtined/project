@@ -2811,3 +2811,26 @@ JavaScript error: https://www.translink.ca/next-bus/favourites, line 1305: TypeE
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1638739473320	geckodriver	INFO	Listening on 127.0.0.1:52729
+1638739476395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--window-size=1920,1080" "--disable-extensions" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "--start-maximized" "-no-remote" "-profile" "C:\\Users\\VOPAYQ~1\\AppData\\Local\\Temp\\rust_mozprofileZDWBIR"
+1638739476927	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VoPay QA\\AppData\\Local\\Temp\\rust_mozprofileZDWBIR\\search.json.mozlz4", (void 0)))
+1638739480146	Marionette	INFO	Listening on port 52739
+1638739480600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.translink.ca/next-bus/results/#/text/route/99/, line 7443: TypeError: document.querySelector(...) is null
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+JavaScript error: https://www.translink.ca/next-bus/favourites, line 1660: TypeError: e.data.split is not a function
+1638739522284	Marionette	INFO	Stopped listening on port 52739

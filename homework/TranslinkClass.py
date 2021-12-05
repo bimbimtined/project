@@ -14,7 +14,7 @@ class Translink:
     findmynextbusbtn = (By.XPATH, "//button[contains(text(),'Find my next bus')]")
     addfavicon = (By.XPATH, "//button[contains(.,'Add Fav')]")
     nametxtbox = (By.XPATH, "//textarea[@name='newFavourite']")
-    addtofavoritesbtn = (By.XPATH, "//button[contains(text(),'Add to Favourites')]")
+    addtofavoritesbtn = (By.XPATH, "//button[normalize-space()='Add to favourites']")
     myfavsicon = (By.XPATH, "//a[contains(.,'My Favs')]")
     translinkautohomeworklink = (By.XPATH, "//a[contains(text(),'Translink Auto Homework')]")
     iframemain = (By.XPATH, "/html[1]/body[1]/main[1]/div[4]/section[3]/iframe[1]")
